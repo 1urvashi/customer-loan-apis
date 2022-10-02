@@ -1,0 +1,238 @@
+{
+    "id": "68de7567-9d1b-2458-f35d-96ce089e14ca",
+    "name": "Customer-loan",
+    "description": "",
+    "order": [
+        "1969f3c3-3993-33ba-96ad-e907b3206817",
+        "d2678e21-fa12-0fb9-df11-1b902f2a313c",
+        "0a362e3c-7ba0-49cc-d1eb-96070b73bdc8",
+        "8acae719-866a-928f-46a8-fd8ae8e37dc0",
+        "533c8e6d-e288-041e-d5fb-00035f1fdc02"
+    ],
+    "folders": [],
+    "folders_order": [],
+    "timestamp": 1664624569840,
+    "owner": "477681",
+    "public": false,
+    "requests": [{
+            "id": "0a362e3c-7ba0-49cc-d1eb-96070b73bdc8",
+            "headers": "",
+            "headerData": [],
+            "url": "http://localhost/customer-loan-api/public/api/applyloan",
+            "queryParams": [],
+            "pathVariables": {},
+            "pathVariableData": [],
+            "preRequestScript": null,
+            "method": "POST",
+            "collectionId": "68de7567-9d1b-2458-f35d-96ce089e14ca",
+            "data": [{
+                    "key": "username",
+                    "value": "urvashi",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "value": "be5674775db105c064a9ae2169fa61d576e87758e803af299303d144709d1ef8",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "amount",
+                    "value": "10000",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "tenor",
+                    "value": "3",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                }
+            ],
+            "dataMode": "params",
+            "name": "applyloan",
+            "description": "",
+            "descriptionFormat": "html",
+            "time": 1664629117307,
+            "version": 2,
+            "responses": [],
+            "tests": null,
+            "currentHelper": "normal",
+            "helperAttributes": {}
+        },
+        {
+            "id": "1969f3c3-3993-33ba-96ad-e907b3206817",
+            "headers": "",
+            "headerData": [],
+            "url": "http://localhost/customer-loan-api/public/api/register",
+            "queryParams": [],
+            "pathVariables": {},
+            "pathVariableData": [],
+            "preRequestScript": null,
+            "method": "POST",
+            "collectionId": "68de7567-9d1b-2458-f35d-96ce089e14ca",
+            "data": [{
+                    "key": "username",
+                    "value": "urvashi",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "password",
+                    "value": "123456",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                }
+            ],
+            "dataMode": "params",
+            "name": "Register",
+            "description": "",
+            "descriptionFormat": "html",
+            "time": 1664624583409,
+            "version": 2,
+            "responses": [],
+            "tests": null,
+            "currentHelper": "normal",
+            "helperAttributes": {}
+        },
+        {
+            "id": "533c8e6d-e288-041e-d5fb-00035f1fdc02",
+            "headers": "",
+            "headerData": [],
+            "url": "http://localhost/customer-loan-api/public/api/payemi",
+            "queryParams": [],
+            "pathVariables": {},
+            "pathVariableData": [],
+            "preRequestScript": null,
+            "method": "POST",
+            "collectionId": "68de7567-9d1b-2458-f35d-96ce089e14ca",
+            "data": [{
+                    "key": "username",
+                    "value": "urvashi",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "value": "be5674775db105c064a9ae2169fa61d576e87758e803af299303d144709d1ef8",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "meta_id",
+                    "value": "1",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "amount",
+                    "value": "3334",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                }
+            ],
+            "dataMode": "params",
+            "name": "payemi",
+            "description": "",
+            "descriptionFormat": "html",
+            "time": 1664629137148,
+            "version": 2,
+            "responses": [],
+            "tests": null,
+            "currentHelper": "normal",
+            "helperAttributes": {}
+        },
+        {
+            "id": "8acae719-866a-928f-46a8-fd8ae8e37dc0",
+            "headers": "",
+            "headerData": [],
+            "url": "http://localhost/customer-loan-api/public/api/approveloan",
+            "queryParams": [],
+            "pathVariables": {},
+            "pathVariableData": [],
+            "preRequestScript": null,
+            "method": "POST",
+            "collectionId": "68de7567-9d1b-2458-f35d-96ce089e14ca",
+            "data": [{
+                    "key": "username",
+                    "value": "urvashi",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "value": "be5674775db105c064a9ae2169fa61d576e87758e803af299303d144709d1ef8",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "loan_id",
+                    "value": "1",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                }
+            ],
+            "dataMode": "params",
+            "name": "approveloan",
+            "description": "",
+            "descriptionFormat": "html",
+            "time": 1664629126539,
+            "version": 2,
+            "responses": [],
+            "tests": null,
+            "currentHelper": "normal",
+            "helperAttributes": {}
+        },
+        {
+            "id": "d2678e21-fa12-0fb9-df11-1b902f2a313c",
+            "headers": "",
+            "headerData": [],
+            "url": "http://localhost/customer-loan-api/public/api/login",
+            "queryParams": [],
+            "pathVariables": {},
+            "pathVariableData": [],
+            "preRequestScript": null,
+            "method": "POST",
+            "collectionId": "68de7567-9d1b-2458-f35d-96ce089e14ca",
+            "data": [{
+                    "key": "username",
+                    "value": "urvashi",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                },
+                {
+                    "key": "password",
+                    "value": "123456",
+                    "description": "",
+                    "type": "text",
+                    "enabled": true
+                }
+            ],
+            "dataMode": "params",
+            "name": "login",
+            "description": "",
+            "descriptionFormat": "html",
+            "time": 1664625264359,
+            "version": 2,
+            "responses": [],
+            "tests": null,
+            "currentHelper": "normal",
+            "helperAttributes": {}
+        }
+    ]
+}
